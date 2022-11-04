@@ -13,6 +13,7 @@ import { ExemploNgContentComponent } from './exemplo-ng-content/exemplo-ng-conte
 import { FundoAmareloDirective } from './shared/fundo-amarelo.directive';
 import { DiretivasCustomComponent } from './diretivas-custom/diretivas-custom.component';
 import { HighlightMouseDirective } from './shared/highlight-mouse.directive';
+import { HighlightDirective } from './shared/highlight.directive';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { HighlightMouseDirective } from './shared/highlight-mouse.directive';
     FundoAmareloDirective,
     DiretivasCustomComponent,
     HighlightMouseDirective,
+    HighlightDirective,
   ],
   imports: [BrowserModule, NgbModule, FormsModule],
   providers: [],
