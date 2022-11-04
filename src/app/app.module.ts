@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { ExemploNgContentComponent } from './exemplo-ng-content/exemplo-ng-content.component';
 import { FundoAmareloDirective } from './shared/fundo-amarelo.directive';
 import { DiretivasCustomComponent } from './diretivas-custom/diretivas-custom.component';
+import { HighlightMouseDirective } from './shared/highlight-mouse.directive';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { DiretivasCustomComponent } from './diretivas-custom/diretivas-custom.co
     ExemploNgContentComponent,
     FundoAmareloDirective,
     DiretivasCustomComponent,
+    HighlightMouseDirective,
   ],
   imports: [BrowserModule, NgbModule, FormsModule],
   providers: [],
